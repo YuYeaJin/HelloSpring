@@ -5,13 +5,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Hello Spring</name>
-  <description>Wy First SpringMAP Application</description>
+  <description>My First SpringMVC Application</description>
   
   <!-- properties -->
   <properties>
- 	<org.springframework-version>6.1.16</org.springframework-version>
+  	<org.springframework-version>6.1.16</org.springframework-version>
   </properties>
-  <!-- 컴파일 및 빌드 정보-->
+  
+  <!-- 컴파일 및 빌드 정보 -->
   <build>
     <plugins>
       <plugin>
@@ -50,7 +51,6 @@
 	    <artifactId>spring-webmvc</artifactId>
 	    <version>${org.springframework-version}</version>
 	</dependency>
-
 
   </dependencies>
 </project>
